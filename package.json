@@ -1,0 +1,25 @@
+{
+  "name": "weight-converter",
+  "version": "0.0.1",
+  "description": "convert various weights",
+  "main": "weight-converter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robbdempsey/weight-converter"
+  },
+  "keywords": [
+    "convert",
+    "weight",
+    "pound",
+    "kilo"
+  ],
+  "author": "Robb Dempsey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robbdempsey/weight-converter/issues"
+  },
+  "homepage": "https://github.com/robbdempsey/weight-converter"
+}
