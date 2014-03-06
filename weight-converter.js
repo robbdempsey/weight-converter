@@ -1,7 +1,12 @@
-
+var defaults = {
+	kilos: 2.20462
+}
 
 function converter() {
-	return 'foo';
+	var a = 100
+	var b = defaults.kilos
+	
+	return a/b;
 }
 
 module.exports = converter;
