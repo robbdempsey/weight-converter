@@ -3,10 +3,14 @@ var defaults = {
 }
 
 function converter() {
-	var a = 100
+	var a = arguments[0]
 	var b = defaults.kilos
-	
-	return a/b;
+
+	if (a){
+		return a/b;
+	} else {
+		return 1/b;		
+	}
 }
 
 module.exports = converter;
